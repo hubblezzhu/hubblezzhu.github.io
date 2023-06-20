@@ -2,6 +2,7 @@
 title: "OpenEuler_vscode"
 date: 2023-06-20T15:27:43+08:00
 draft: false
+weight: 15
 ---
 
 ## 描述
