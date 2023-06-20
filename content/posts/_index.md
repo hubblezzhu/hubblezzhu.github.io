@@ -1,5 +1,5 @@
 ---
 bookFlatSection: true
-title: "openEuler"
+title: "Blog"
 weight: 1
 ---

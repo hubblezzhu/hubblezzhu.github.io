@@ -1,5 +1,5 @@
 ---
 bookFlatSection: true
-title: "openEuler"
+title: "Docs"
 weight: 1
 ---
