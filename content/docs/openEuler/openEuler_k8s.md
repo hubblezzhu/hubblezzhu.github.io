@@ -2,13 +2,14 @@
 title: "openEuler_k8s"
 date: 2023-06-20T15:28:03+08:00
 draft: false
+weight: 5
 ---
 
 ## 描述
 通过 kubeadm 安装 k8s 集群
 
 ## 版本
-kubernetes 1.27   arm64 <br>
+kubernetes 1.27   arm64 \
 openEuler  23.03  arm64
 
 
