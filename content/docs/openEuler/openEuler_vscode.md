@@ -1,8 +1,8 @@
 ---
-title: "OpenEuler_vscode"
+title: "openEuler_vscode"
 date: 2023-06-20T15:27:43+08:00
 draft: false
-weight: 15
+weight: 5
 ---
 
 ## 描述

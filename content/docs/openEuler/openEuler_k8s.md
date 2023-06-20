@@ -1,8 +1,7 @@
 ---
-title: "OpenEuler_k8s"
+title: "openEuler_k8s"
 date: 2023-06-20T15:28:03+08:00
 draft: false
-weight: 15
 ---
 
 ## 描述
