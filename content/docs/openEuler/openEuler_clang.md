@@ -1,7 +1,8 @@
 ---
-title: "OpenEuler_clang"
+title: "openEuler_clang"
 date: 2023-06-27T14:08:00+08:00
 draft: false
+weight: 5
 ---
 
 ## 描述
