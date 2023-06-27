@@ -1,5 +1,5 @@
 ---
-title: "OpenEuler_compile"
+title: "openEuler_compile"
 date: 2023-06-27T09:36:32+08:00
 draft: false
 weight: 5
@@ -10,7 +10,7 @@ weight: 5
 
 
 ## 版本
-Build OS:     openEuler 23.03 x86 <br/>
+Build OS:     openEuler 23.03 x86 \
 Linux Source: linux 6.1.19
 
 
@@ -60,7 +60,7 @@ make -j 3
 
 编译成功
 
-```shell
+```bash
 root@localhost.localdomain:/usr/src/linux-6.1.19-7.0.0.17.oe2303.x86_64 git:(master) make -j 3
   DESCEND objtool
   DESCEND bpf/resolve_btfids
