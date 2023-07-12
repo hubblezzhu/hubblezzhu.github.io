@@ -19,7 +19,8 @@ containerd 在 docker 的 yum repo 里
 
 ### 1、安装 containerd
 ```shell
-cat <<EOF | sudo tee /etc/yum.repos.d/docker-ce.repo
+vi /etc/yum.repos.d/docker-ce.repo
+
 
 [docker-ce-stable]
 name=Docker CE Stable - $basearch
@@ -27,7 +28,6 @@ baseurl=https://download.docker.com/linux/centos/9/$basearch/stable
 enabled=1
 gpgcheck=1
 gpgkey=https://download.docker.com/linux/centos/gpg
-EOF
 
 ```
 
