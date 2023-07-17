@@ -62,5 +62,8 @@ yum list docker-ce --showduplicates | sort -r
 安装制定版本 \
 如 18.09
 ```bash
-sudo yum install docker-ce-3:18.09.9-3.el7 docker-ce-cli-3:18.09.9-3.el7 containerd.io docker-buildx-plugin docker-compose-plugin
+yum install docker-ce-3:18.09.9-3.el7 docker-ce-cli-1:18.09.9-3.el7 containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
+
+Attention: \
+docker-ce 和 docker-ce-cli 的版本字符串可能不一样，需要分别制定
