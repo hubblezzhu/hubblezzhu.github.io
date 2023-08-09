@@ -1,5 +1,5 @@
 ---
-title: "Trace Cmd"
+title: "trace-cmd"
 date: 2023-07-14T15:17:47+08:00
 draft: false
 ---

@@ -39,5 +39,5 @@ docker run --rm redislabs/memtier_benchmark:latest --help
 
 打流
 ```bash
-docker run --rm redislabs/memtier_benchmark:latest -s 192.168.101.222 -n 100000  -t 4 --ratio 1:0
+docker run --rm --network=host --name my_benchmark redislabs/memtier_benchmark:latest -s 192.168.101.220 -n 50000 -c 10 -t 4 --ratio 1:0
 ```
