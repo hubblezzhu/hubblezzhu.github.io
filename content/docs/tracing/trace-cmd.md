@@ -32,9 +32,11 @@ trace-cmd list -f
 
 #### 追踪特定函数
 1、开始记录
+
 ```bash
-trace-cmd record -P 281760 -p function_graph -l do_sys_open
+trace-cmd record -P 281760 -p function_graph -g do_sys_open
 ```
+另外还可以添加 -l <func> 过滤函数，支持通配符
 
 2、查看结果
 ```bash
