@@ -40,3 +40,10 @@ trace-cmd record -P 281760 -p function_graph -l do_sys_open
 ```bash
 trace-cmd report
 ```
+
+
+## 常用跟踪函数
+```bash
+ksys_read
+ksys_write
+```
