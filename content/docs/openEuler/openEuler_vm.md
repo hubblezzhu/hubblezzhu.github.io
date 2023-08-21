@@ -76,7 +76,7 @@ touch oe2109_1.xml
       <model type='virtio'/>
       <dhcp/>                                                   <!-- 开启dhcp -->
     </interface>
-    <graphics type='vnc' port='5911' autoport='no' listen='0.0.0.0'>     <!-- vnc端口，不同vm需要指定不同的端口 -->
+    <graphics type='vnc' autoport='yes' listen='0.0.0.0'>
       <listen type='address' address='0.0.0.0'/>
     </graphics>
   </devices>
@@ -99,7 +99,7 @@ virsh list --all
 
 获取 vnc 端口
 ```bash
-root@dell-PowerEdge-T150:/home/zhb/qemu# virsh vncdisplay oe2303_1
+root@dell-PowerEdge-T150:/home/zhb/qemu# virsh vncdisplay oe2109_1
 :11
 ```
 
