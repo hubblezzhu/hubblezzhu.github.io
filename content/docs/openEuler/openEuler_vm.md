@@ -58,7 +58,9 @@ touch oe2109_1.xml
     <boot dev='hd'/>                                    <!-- 启动顺序，优先hd，其次cdrom -->
     <boot dev='cdrom'/>
   </os>
-
+  <cpu mode='host-passthrough'>
+    <feature policy='disable' name='vmx'/>
+  </cpu>
   <devices>
     <disk type='file' device='disk'>
       <driver name='qemu' type='qcow2'/>
