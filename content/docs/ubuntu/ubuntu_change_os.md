@@ -8,7 +8,7 @@ draft: false
 
 
 ## 版本
-Build OS:     ubuntu 22.04 LTS x86 \
+Build OS:     ubuntu 22.04 LTS x86
 
 
 ## 查看现有的可用的内核
