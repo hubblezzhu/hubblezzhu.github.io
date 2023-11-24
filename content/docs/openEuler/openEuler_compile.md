@@ -38,6 +38,7 @@ dnf install openssl-devel -y
 dnf install ncurses-devel -y
 dnf install dwarves -y
 dnf install git -y
+dnf install bc -y
 ```
 
 ## 修改编译配置项
@@ -81,3 +82,18 @@ reboot
 ```
 
 reboot 后在系统启动选择系统界面就可以选择新编的内核了
+
+
+
+## 卸载
+
+```bash
+rm -rf  /boot/vmlinuz-5.15.122
+rm -rf  /boot/initrd.img-5.15.122
+rm -rf  /boot/System-map-5.15.122
+rm -rf  /boot/config-5.15.122
+rm -rf  /lib/modules/5.15.122
+rm -rf  /var/lib/initramfs-tools/5.15.122
+
+update-grub
+```
