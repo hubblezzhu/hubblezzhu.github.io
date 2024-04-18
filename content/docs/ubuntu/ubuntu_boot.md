@@ -1,6 +1,6 @@
 ---
 title: "ubuntu_boot"
-date: 2024-04-18T15:12:13+08:00
+date: 2024-04-18T11:12:13+08:00
 draft: false
 ---
 
