@@ -13,5 +13,6 @@ draft: false
 
 
 # 参考资料
-- [0] https://www.ruanyifeng.com/blog/2013/02/booting.html
-- [1] https://www.ruanyifeng.com/blog/2013/08/linux_boot_process.html
+- [] https://www.ruanyifeng.com/blog/2013/02/booting.html
+- [] https://www.ruanyifeng.com/blog/2013/08/linux_boot_process.html
+- [] https://systemd-book.junmajinlong.com/systemd_bootup.html
