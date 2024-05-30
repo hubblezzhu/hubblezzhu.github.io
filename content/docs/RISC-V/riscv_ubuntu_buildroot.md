@@ -83,7 +83,7 @@ apt install bash-completion -y
 ```
 
 ```bash
-umount /dev/pts/ /dev/ /proc/ /sys
+umount /dev/pts /dev /proc /sys
 ```
 
 
@@ -210,7 +210,7 @@ Mem:              31           0          30           0           0          30
 Swap:              0           0           0
 ```
 
-## 问题
+## 可能遇到的问题
 
 ### 1、制作 ext 镜像时，没有 /dev/zero 文件
 ```bash
@@ -227,6 +227,8 @@ make -j 15
 ```
 
 ## 参考
-https://blog.csdn.net/flyfish1986/article/details/130500977
-https://github.com/rajnesh-kanwal/linux/wiki/Running-CTR-basic-demo-on-QEMU-RISC%E2%80%90V-Virt-machine#3-build-root-fs
+https://blog.csdn.net/flyfish1986/article/details/130500977     \
+
+https://github.com/rajnesh-kanwal/linux/wiki/Running-CTR-basic-demo-on-QEMU-RISC%E2%80%90V-Virt-machine#3-build-root-fs \
+
 https://github.com/carlosedp/riscv-bringup/blob/master/Ubuntu-Rootfs-Guide.md
