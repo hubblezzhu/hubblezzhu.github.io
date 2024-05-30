@@ -1,5 +1,5 @@
 ---
-title: "riscv_kvm_kernel"
+title: "riscv_buildroot"
 date: 2024-05-14T15:27:43+08:00
 draft: false
 weight: 5
@@ -55,7 +55,6 @@ make menuconfig
 ### 编译
 
 ```bash
-export FORCE_UNSAFE_CONFIGURE=1
 make -j 15
 ```
 

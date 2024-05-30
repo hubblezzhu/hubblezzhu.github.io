@@ -42,10 +42,8 @@ tar -xvJf qemu-9.0.0.tar.xz
 ```bash
 
 cd qemu-9.0.0
-mkdir build
-cd build
 # ../configure
-../configure --enable-kvm --enable-virtfs --target-list=riscv64-linux-user,riscv64-softmmu
+./configure --enable-kvm --enable-virtfs --enable-slirp --target-list=riscv64-linux-user,riscv64-softmmu
 
 make -j 15
 
