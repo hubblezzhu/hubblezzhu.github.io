@@ -100,6 +100,7 @@ EOF
 ```bash
 cat >/etc/resolv.conf <<EOF
 nameserver 223.5.5.5
+nameserver 8.8.8.8
 EOF
 ```
 ```bash
@@ -194,14 +195,15 @@ Supported modules:
  Idx: Debian control file
  Idx: EDSP scenario file
  Idx: EIPP scenario file
-root@riscv-ubuntu2204:~#
-root@riscv-ubuntu2204:~#
-root@riscv-ubuntu2204:~#
+
+
 root@riscv-ubuntu2204:~# lscpu
 Architecture:          riscv64
   Byte Order:          Little Endian
 CPU(s):                8
   On-line CPU(s) list: 0-7
+
+
 root@riscv-ubuntu2204:~# free -g
                total        used        free      shared  buff/cache   available
 Mem:              31           0          30           0           0          30
