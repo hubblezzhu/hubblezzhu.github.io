@@ -30,6 +30,7 @@ debootstrap --arch=riscv64 --foreign jammy ./temp-rootfs http://mirrors.tuna.tsi
 ### 3、chroot, debootstrap
 ```bash
 chroot temp-rootfs /bin/bash
+/debootstrap/debootstrap --second-stage
 ```
 
 
@@ -173,7 +174,7 @@ chmod 777 rootfs_ubuntu_riscv.ext2
     -netdev user,id=net0 -device virtio-net-device,netdev=net0
 ```
 
-其中 Image 为交叉编译好的镜像
+其中 Image 为交叉编译好的内核镜像
 
 ### 8、启动后即可进入基于 ubuntu 的riscv OS，已经安装好 apt-get
 ```bash
