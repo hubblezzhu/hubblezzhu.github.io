@@ -129,6 +129,11 @@ sysfs       /sys        sysfs   defaults    0   0
 EOF
 ```
 
+至此，根文件系统中的 软件包都已安装完毕，退出 chroot
+```bash
+exit
+```
+
 ### 6、制作 ext 镜像
 制作 ext4 格式
 ```bash
@@ -226,6 +231,13 @@ cd qemu-9.0.0
 
 make -j 15
 ```
+
+### 3、制作 ext 镜像时，Operation not permitted
+重启下vm后，继续后续步骤
+```bash
+reboot
+```
+
 
 ## 参考
 https://blog.csdn.net/flyfish1986/article/details/130500977     \
