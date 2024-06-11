@@ -31,7 +31,7 @@ git clone git@github.com:kvm-riscv/linux.git kvm_riscv_linux
 cd kvm_riscv_linux
 
 export ARCH=riscv
-export CROSS_COMPILE=/root/riscv/riscv/bin/riscv64-unknown-linux-gnu-
+export CROSS_COMPILE=/root/workspace/riscv/bin/riscv64-unknown-linux-gnu-
 
 # mkdir build-riscv64
 
