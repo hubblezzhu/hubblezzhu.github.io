@@ -43,6 +43,7 @@ apt-get install libbfd-dev -y
 apt-get install libcap-dev -y
 apt-get install libzstd-dev -y
 apt-get install libtraceevent-dev -y
+apt-get install pkg-config -y
 ```
 
 ## 编译 & 安装

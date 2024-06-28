@@ -15,6 +15,7 @@ ubuntu 20.04
 
 ### 安装依赖
 ```bash
+apt-get install bc -y
 apt-get install tar -y
 apt-get install libelf-dev gcc make -y
 apt-get install libssl-dev dwarves libncurses-dev bison flex -y

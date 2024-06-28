@@ -62,8 +62,8 @@ apt-get update
 ```bash
 mount -t proc proc  /proc
 mount -t sysfs sys  /sys
-mount -o bind dev  /dev
-mount -o bind dev/pts  /dev/pts
+# mount -o bind dev  /dev
+# mount -o bind dev/pts  /dev/pts
 ```
 
 
@@ -84,7 +84,8 @@ apt install bash-completion -y
 ```
 
 ```bash
-umount /dev/pts /dev /proc /sys
+umount /proc /sys
+# umount /dev/pts /dev
 ```
 
 

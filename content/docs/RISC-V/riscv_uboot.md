@@ -1,12 +1,12 @@
 ---
-title: "riscv_qemu"
+title: "riscv_uboot"
 date: 2024-05-14T15:27:43+08:00
 draft: false
 weight: 5
 ---
 
 ## 描述
-构建 qemu
+构建 uboot
 
 
 ## 版本
@@ -18,11 +18,11 @@ ubuntu 20.04
 ```bash
 apt-get install python3-venv -y
 apt-get install python3-pip -y
-apt-get install libglib2.0-dev -y
 
-python3 -m pip install sphinx
-python3 -m pip install sphinx_rtd_theme
-python3 -m pip install ninja
+
+python3 -m pip install sphinx -y
+python3 -m pip install sphinx_rtd_theme -y
+python3 -m pip install ninja -y
 
 ```
 
