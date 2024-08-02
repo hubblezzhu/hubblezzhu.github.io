@@ -19,6 +19,8 @@ social: true # includes social icons at the bottom of the page
 
 ```txt
 Linux Kernel Developer
-Solana rust develop beginner
-Web3 game develop enthusiast
+RISC-V engineer
+Rust beginner
+Intrested in Web3 game develop
 ```
+
