@@ -8,7 +8,7 @@ categories: ubuntu
 ---
 
 
-## 描述
+
 ubuntu 源码编译 perf
 
 

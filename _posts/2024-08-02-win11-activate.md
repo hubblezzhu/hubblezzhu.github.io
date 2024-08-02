@@ -9,7 +9,6 @@ categories: others
 
 
 
-## 描述
 激活 window11
 
 ## 设置 KMS server

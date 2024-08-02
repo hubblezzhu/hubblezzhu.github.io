@@ -9,7 +9,7 @@ categories: openEuler
 
 
 
-## 描述
+
 创建 openEuler VM
 
 ## 版本

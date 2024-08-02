@@ -7,7 +7,7 @@ tags: patch
 categories: others
 ---
 
-## 描述
+
 向内核提交riscv patch
 
 

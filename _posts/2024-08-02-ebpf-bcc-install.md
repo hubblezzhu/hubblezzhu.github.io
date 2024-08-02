@@ -9,7 +9,7 @@ categories: eBPF
 
 
 
-## 描述
+
 从源码编译安装 bcc      \
 环境：Linux oe2303-aarch64 6.1.19-7.0.0.17.oe2303.aarch64
 

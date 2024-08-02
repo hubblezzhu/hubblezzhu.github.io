@@ -8,7 +8,7 @@ categories: openEuler
 ---
 
 
-## 描述
+
 基于 openEuler 编译 linux kernel
 
 

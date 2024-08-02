@@ -8,7 +8,7 @@ categories: openEuler
 ---
 
 
-## 描述
+
 openEuler 各版本 yum 源配置   \
 优选 阿里云，阿里云没有的使用 openatom  \
 

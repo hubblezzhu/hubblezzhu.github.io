@@ -8,7 +8,7 @@ categories: ubuntu
 ---
 
 
-## 描述
+
 基于 ubuntu 编译 linux kernel
 
 

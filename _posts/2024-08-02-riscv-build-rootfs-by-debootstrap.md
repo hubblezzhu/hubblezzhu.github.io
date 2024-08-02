@@ -7,7 +7,7 @@ tags: riscv
 categories: riscv
 ---
 
-## 描述
+
 基于 debootstrap 构建 RISC-V 64 Ubuntu 根文件系统
 
 ## 版本

@@ -7,7 +7,7 @@ tags: openEuler kubernetes
 categories: openEuler
 ---
 
-## 描述
+
 通过 kubeadm 安装 k8s 集群
 
 ## 版本

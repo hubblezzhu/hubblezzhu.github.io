@@ -8,7 +8,7 @@ categories: riscv
 ---
 
 
-## 描述
+
 编译安装 kvm risc-v 源码
 
 ## 版本

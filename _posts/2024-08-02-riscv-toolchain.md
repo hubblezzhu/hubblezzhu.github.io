@@ -8,7 +8,7 @@ categories: riscv
 ---
 
 
-## 描述
+
 编译安装 RISC-V 交叉编译工具链
 
 ## 版本

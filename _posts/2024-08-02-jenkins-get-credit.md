@@ -7,7 +7,7 @@ tags: Jenkins
 categories: Jenkins
 ---
 
-## 描述
+
 
 通过 jenkins script console 获取所有 jenkins 账号，密码
 

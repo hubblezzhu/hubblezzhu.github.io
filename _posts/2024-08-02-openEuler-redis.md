@@ -8,7 +8,7 @@ categories: openEuler
 ---
 
 
-## 描述
+
 openEuler启动redis
 
 

@@ -7,7 +7,7 @@ tags: ubuntu
 categories: ubuntu
 ---
 
-## 描述
+
 多内核版本下，命令行修改启动OS
 
 

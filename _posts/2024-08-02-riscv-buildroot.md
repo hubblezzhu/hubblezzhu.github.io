@@ -8,7 +8,7 @@ categories: riscv
 ---
 
 
-## 描述
+
 编译构建 buildroot
 
 

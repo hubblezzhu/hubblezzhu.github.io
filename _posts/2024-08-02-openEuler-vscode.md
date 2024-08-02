@@ -7,7 +7,7 @@ tags: openEuler
 categories: openEuler
 ---
 
-## 描述
+
 安装完 openEuler 虚拟机后，通过 vscode remote-ssh 无法连接上
 
 
