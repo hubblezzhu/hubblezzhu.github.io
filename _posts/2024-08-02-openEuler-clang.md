@@ -7,16 +7,13 @@ tags: openEuler
 categories: openEuler
 ---
 
-
-
 openEuler 安装 clang
 
-
-
 ## 版本
-openEuler： openEuler 23.03     \
-clang    ： clang15             \
-llvm     ： llvm15
+
+openEuler： openEuler 23.03 \
+clang ： clang15 \
+llvm ： llvm15
 
 ## 步骤
 

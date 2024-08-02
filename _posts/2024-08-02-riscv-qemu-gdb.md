@@ -7,11 +7,10 @@ tags: riscv qemu
 categories: riscv
 ---
 
-
 ## 使用QEMU和GDB调试Linux内核
 
-
 ## 拉起 qemu 内核环境
+
 ```bash
 
 # 下面 -s 指定开启 gdb 远程调试端口 ：1234
@@ -32,8 +31,8 @@ categories: riscv
 # 还可以添加 -S 指定 os 挂起，等 gdb attach 来调试引导
 ```
 
-
 ## gdb 调试
+
 ```shell
 root@isrc bin # ./riscv64-unknown-linux-gnu-gdb
 GNU gdb (GDB) 14.1

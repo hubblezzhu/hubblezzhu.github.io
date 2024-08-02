@@ -7,17 +7,16 @@ tags: riscv qemu
 categories: riscv
 ---
 
-
-
 构建 qemu
 
-
 ## 版本
+
 ubuntu 20.04
 
 ## 从源码编译
 
 ### 安装依赖
+
 ```bash
 apt-get install python3-venv -y
 apt-get install python3-pip -y
@@ -29,9 +28,7 @@ python3 -m pip install ninja
 
 ```
 
-
 ### 下载源码
-
 
 ```bash
 # 以 qemu 9.0 版本为例
@@ -42,6 +39,7 @@ tar -xvJf qemu-9.0.0.tar.xz
 ```
 
 ### 编译
+
 ```bash
 
 cd qemu-9.0.0

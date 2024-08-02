@@ -7,47 +7,47 @@ tags: openEuler
 categories: openEuler
 ---
 
-
-
-
 创建 openEuler VM
 
 ## 版本
-x86                             \
-Host OS：ubuntu                 \
-Guest OS：openEuler 2109        \
+
+x86 \
+Host OS：ubuntu \
+Guest OS：openEuler 2109 \
 Guest OS：openEuler 2303
 
 ## 步骤
+
 #### 1、安装依赖包
 
 ```bash
 dnf install qemu-kvm libvirt virt-install bridge-utils -y
 ```
 
-
 #### 2、下载镜像
+
 ```bash
 wget https://repo.huaweicloud.com/openeuler/openEuler-21.09/ISO/x86_64/openEuler-21.09-x86_64-dvd.iso
 
 wget https://repo.huaweicloud.com/openeuler/openEuler-23.03/ISO/x86_64/openEuler-23.03-x86_64-dvd.iso
 ```
+
 #### 3、创建虚拟磁盘
 
 以安装 openEuler 2109 为例
-
 
 ```bash
 root@dell-PowerEdge-T150:/home/zhb/qemu# qemu-img create -f qcow2 oe2109_1.qcow2 200G
 ```
 
-
 #### 4、定义 xml 文件
+
 ```bash
 touch oe2109_1.xml
 ```
 
 模版参考
+
 ```xml
 <domain type='kvm'>
   <name>oe2109_1</name>                                 <!-- 虚拟机名字 -->
@@ -97,6 +97,7 @@ virsh start oe2109_1
 ```
 
 查看虚拟机
+
 ```bash
 virsh list --all
 ```
@@ -104,6 +105,7 @@ virsh list --all
 #### 6、通过 vnc 安装 os
 
 获取 vnc 端口
+
 ```bash
 root@dell-PowerEdge-T150:/home/zhb/qemu# virsh vncdisplay oe2109_1
 :11

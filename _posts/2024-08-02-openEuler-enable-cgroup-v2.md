@@ -7,13 +7,10 @@ tags: openEuler cgroupv2
 categories: openEuler
 ---
 
-
-
 openEuler 切换 cgroup v2
 
-
-
 ## 版本
+
 openEuler： openEuler 23.03 x86
 
 ## 步骤

@@ -7,12 +7,7 @@ tags: ubuntu perf
 categories: ubuntu
 ---
 
-
-
 ubuntu 源码编译 perf
-
-
-
 
 ## 下载源码
 
@@ -22,8 +17,6 @@ apt-get install linux-source -y
 # 解压源码
 cd /usr/src/linux-source-5.15.0/linux-source-5.15.0/tools/perf
 ```
-
-
 
 ## 安装依赖
 
@@ -59,8 +52,8 @@ make
 make install
 ```
 
-
 ## 使用
+
 ```shell
 /root/bin/perf -h
 ```

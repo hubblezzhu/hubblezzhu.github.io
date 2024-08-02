@@ -7,19 +7,19 @@ tags: win11
 categories: others
 ---
 
-
-
 激活 window11
 
 ## 设置 KMS server
+
 Set KMS server
+
 ```bash
 # 打开 CMD， 以管理员身份运行
 slmgr /skms kms8.msguides.com
 ```
 
-
 windows11 license key
+
 ```txt
 Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM

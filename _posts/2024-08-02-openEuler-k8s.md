@@ -7,19 +7,19 @@ tags: openEuler kubernetes
 categories: openEuler
 ---
 
-
 通过 kubeadm 安装 k8s 集群
 
 ## 版本
-kubernetes 1.27   arm64 \
-openEuler  23.03  arm64
 
+kubernetes 1.27 arm64 \
+openEuler 23.03 arm64
 
 ## 准备 containerd
 
 containerd 在 docker 的 yum repo 里
 
 ### 1、安装 containerd
+
 ```shell
 vi /etc/yum.repos.d/docker-ce.repo
 
@@ -72,6 +72,7 @@ EOF
 ```
 
 openEuler 23.03 中 /etc/sysctl.conf 中给 net.ipv4.ip_forward 也赋值了，需要注释掉
+
 ```shell
 sed -i 's/net.ipv4.ip_forward\=0/#net.ipv4.ip_forward\=0/g' /etc/sysctl.conf
 
@@ -81,7 +82,6 @@ sed -i 's/net.ipv4.ip_forward\=0/#net.ipv4.ip_forward\=0/g' /etc/sysctl.conf
 # Apply sysctl params without reboot
 sudo sysctl --system
 ```
-
 
 ## 安装 kubeadm
 
@@ -107,14 +107,15 @@ sudo systemctl enable --now kubelet
 
 ## 通过 kubeadm 拉起集群
 
-
 ### 1、关闭防火墙
+
 ```shell
 systemctl stop firewalld
 systemctl disable firewalld
 ```
 
 ### 2、关闭 swap
+
 ```shell
 swapoff -a
 sed -ri 's/.*swap.*/#&/' /etc/fstab
@@ -127,6 +128,7 @@ kubeadm init --apiserver-advertise-address=10.211.55.26 --service-cidr=10.96.0.0
 ```
 
 重置集群
+
 ```shell
 kubeadm reset
 ```

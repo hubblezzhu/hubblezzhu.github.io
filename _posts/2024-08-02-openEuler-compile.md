@@ -7,15 +7,12 @@ tags: openEuler
 categories: openEuler
 ---
 
-
-
 基于 openEuler 编译 linux kernel
 
-
 ## 版本
-Build OS:     openEuler 23.03 x86 \
-Linux Source: linux 6.1.19
 
+Build OS: openEuler 23.03 x86 \
+Linux Source: linux 6.1.19
 
 ## 下载源码
 
@@ -30,7 +27,6 @@ cd /usr/src/linux-6.1.19-7.0.0.17.oe2303.x86_64/
 wget https://mirror.bjtu.edu.cn/kernel/linux/kernel/v6.x/linux-6.1.19.tar.gz
 tar -zxvf linux-6.1.19.tar.gz
 ```
-
 
 ## 安装依赖
 
@@ -47,17 +43,19 @@ dnf install bc -y
 ## 修改编译配置项
 
 使用 openEuler 23.03 原有config
+
 ```shell
 cp /boot/config-6.1.19-7.0.0.17.oe2303.x86_64 .config
 ```
 
 按需微调
+
 ```shell
 make menuconfig
 ```
 
-
 ## 编译 & 安装
+
 ```shell
 make -j 3
 ```
@@ -85,8 +83,6 @@ reboot
 ```
 
 reboot 后在系统启动选择系统界面就可以选择新编的内核了
-
-
 
 ## 卸载
 

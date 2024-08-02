@@ -7,11 +7,10 @@ tags: openEuler
 categories: openEuler
 ---
 
-
 安装完 openEuler 虚拟机后，通过 vscode remote-ssh 无法连接上
 
-
 ## 版本
+
 openEuler 23.03
 
 ## 解决方法
@@ -24,6 +23,7 @@ AllowTcpForwarding yes
 ```
 
 重启 ssh 服务
+
 ```shell
 systemctl restart sshd.service
 ```

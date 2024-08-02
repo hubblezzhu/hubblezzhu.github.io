@@ -7,13 +7,9 @@ tags: patch
 categories: others
 ---
 
-
 向内核提交riscv patch
 
-
-
 ## 步骤
-
 
 ### 1、安装 git send-email
 
@@ -26,6 +22,7 @@ sudo apt install git git-email
 ### 2、配置 smtp server
 
 修改.gitconfig 文件，参考
+
 ```conf
 [user]
         name = Zhu Hengbo
@@ -53,7 +50,9 @@ cd linux
 ```
 
 ### 4、发送 patch
+
 获取 maintainer 信息
+
 ```bash
 cd linux
 ./scripts/get_maintainer.pl 0001-riscv-add-tracepoints-for-page-fault.patch
@@ -63,9 +62,10 @@ cd linux
 git send-email --to xxxxxx --cc xxxxxx 0001-riscv-add-tracepoints-for-page-fault.patch
 ```
 
-
 ### 5、Tips
+
 ##### 1、在 .gitconfig 中添加配置
+
 ```conf
 [sendemail.linux]
 	tocmd ="`pwd`/scripts/get_maintainer.pl --nogit --norolestats "
@@ -73,16 +73,17 @@ git send-email --to xxxxxx --cc xxxxxx 0001-riscv-add-tracepoints-for-page-fault
 ```
 
 发送patch
+
 ```shell
 git send-email --identity=linux ./0001-riscv-add-tracepoints-for-page-fault.patch
 ```
+
 这样会直接帮忙把多个 --to 的收件人 和 --cc 的抄送人填好
 
-
-
-
 ##### 2、patch 需要更新
+
 如果patch需要更新，在 commit msg 中加上
+
 ```txt
 ---
 Changes in v2:
@@ -90,7 +91,9 @@ Changes in v2:
 ```
 
 然后重新生成 Patch
+
 ```bash
 git format-patch -1 --subject-prefix="[PATCH vXXX]"
 ```
+
 之后重新发送patch 即可

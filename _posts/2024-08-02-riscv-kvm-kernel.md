@@ -7,16 +7,16 @@ tags: riscv
 categories: riscv
 ---
 
-
-
 编译安装 kvm risc-v 源码
 
 ## 版本
+
 ubuntu 20.04
 
 ## 从源码编译
 
 ### 安装依赖
+
 ```bash
 apt-get install bc -y
 apt-get install tar -y
@@ -25,6 +25,7 @@ apt-get install libssl-dev dwarves libncurses-dev bison flex -y
 ```
 
 ### 下载源码
+
 ```bash
 git clone git@github.com:kvm-riscv/linux.git kvm_riscv_linux
 ```

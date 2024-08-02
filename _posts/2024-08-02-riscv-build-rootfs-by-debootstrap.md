@@ -7,36 +7,37 @@ tags: riscv
 categories: riscv
 ---
 
-
 基于 debootstrap 构建 RISC-V 64 Ubuntu 根文件系统
 
 ## 版本
+
 VM OS：ubuntu 20.04 \
 RISC-V root fs：RISC-V 64 Ubuntu 22.04 LTS
-
 
 ## 步骤
 
 ### 1、在 VM 上安装需要的程序
+
 ```bash
 apt install debootstrap qemu qemu-user-static binfmt-support dpkg-cross --no-install-recommends
 ```
 
-
 ### 2、生成最小 bootstrap rootfs
+
 ```bash
 # 在当前文件夹下生成 temp-rootfs
 debootstrap --arch=riscv64 --foreign jammy ./temp-rootfs http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports
 ```
 
 ### 3、chroot, debootstrap
+
 ```bash
 chroot temp-rootfs /bin/bash
 /debootstrap/debootstrap --second-stage
 ```
 
-
 ### 4、修改 apt 源，安装 risc-v 包
+
 ```bash
 cat >/etc/apt/sources.list <<EOF
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
@@ -68,7 +69,6 @@ mount -t sysfs sys  /sys
 # mount -o bind dev/pts  /dev/pts
 ```
 
-
 ```bash
 apt-get install --no-install-recommends -y util-linux haveged openssh-server systemd kmod initramfs-tools conntrack ebtables ethtool iproute2 iptables mount socat ifupdown iputils-ping vim dhcpcd5 neofetch sudo chrony
 ```
@@ -90,8 +90,8 @@ umount /proc /sys
 # umount /dev/pts /dev
 ```
 
-
 ### 5、基本配置
+
 ```bash
 cat >>/etc/network/interfaces <<EOF
 auto lo
@@ -101,23 +101,27 @@ auto eth0
 iface eth0 inet dhcp
 EOF
 ```
+
 ```bash
 cat >/etc/resolv.conf <<EOF
 nameserver 223.5.5.5
 nameserver 8.8.8.8
 EOF
 ```
+
 ```bash
 echo 'riscv-ubuntu2204' > /etc/hostname
 echo "127.0.0.1 localhost" > /etc/hosts
 echo "127.0.0.1 riscv-ubuntu2204" >> /etc/hosts
 ```
+
 ```bash
 # 设置密码
 passwd root
 ## 设置允许 root 登录
 sed -i "s/#PermitRootLogin.*/PermitRootLogin yes/g" /etc/ssh/sshd_config
 ```
+
 ```bash
 # 分区配置
 cat >/etc/fstab <<EOF
@@ -133,12 +137,15 @@ EOF
 ```
 
 至此，根文件系统中的 软件包都已安装完毕，退出 chroot
+
 ```bash
 exit
 ```
 
 ### 6、制作 ext 镜像
+
 制作 ext4 格式
+
 ```bash
 # 40G 根目录
 dd if=/dev/zero of=rootfs_ubuntu_riscv.ext4 bs=1M count=40960
@@ -152,8 +159,8 @@ umount tmpfs
 chmod 777 rootfs_ubuntu_riscv.ext4
 ```
 
-
 制作 ext2 格式
+
 ```bash
 # 40G 根目录
 dd if=/dev/zero of=rootfs_ubuntu_riscv.ext2 bs=1M count=40960
@@ -168,6 +175,7 @@ chmod 777 rootfs_ubuntu_riscv.ext2
 ```
 
 ### 7、qemu 启动
+
 ```bash
 ../qemu-9.0.0/build/qemu-system-riscv64 \
     -M virt \
@@ -185,6 +193,7 @@ chmod 777 rootfs_ubuntu_riscv.ext2
 其中 Image 为交叉编译好的内核镜像
 
 ### 8、启动后即可进入基于 ubuntu 的riscv OS，已经安装好 apt-get
+
 ```bash
 root@riscv-ubuntu2204:~# apt-get -v
 apt 2.4.12 (riscv64)
@@ -222,10 +231,13 @@ Swap:              0           0           0
 ## 可能遇到的问题
 
 ### 1、制作 ext 镜像时，没有 /dev/zero 文件
+
 ```bash
  mknod -m 666 /dev/zero c 1 5
 ```
+
 ### 2、qemu 不支持 -netdev user
+
 ```bash
 # 重新编译 qemu，添加 --enable-slirp 参数
 cd qemu-9.0.0
@@ -236,14 +248,16 @@ make -j 15
 ```
 
 ### 3、制作 ext 镜像时，Operation not permitted
+
 重启下vm后，继续后续步骤
+
 ```bash
 reboot
 ```
 
-
 ## 参考
-https://blog.csdn.net/flyfish1986/article/details/130500977     \
+
+https://blog.csdn.net/flyfish1986/article/details/130500977 \
 
 https://github.com/rajnesh-kanwal/linux/wiki/Running-CTR-basic-demo-on-QEMU-RISC%E2%80%90V-Virt-machine#3-build-root-fs \
 

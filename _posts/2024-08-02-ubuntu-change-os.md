@@ -7,20 +7,17 @@ tags: ubuntu
 categories: ubuntu
 ---
 
-
 多内核版本下，命令行修改启动OS
 
-
 ## 版本
-Build OS:     ubuntu 22.04 LTS x86
 
+Build OS: ubuntu 22.04 LTS x86
 
 ## 查看现有的可用的内核
 
 ```shell
 cat /boot/grub/grub.cfg  | grep menuentry
 ```
-
 
 ```shell
 menuentry 'Ubuntu' --class ubuntu --class gnu-linux --class gnu --class os $menuentry_id_option 'gnulinux-simple-18342a49-b884-4c12-8afc-b40d82e17ac3' {
@@ -48,13 +45,15 @@ GRUB_CMDLINE_LINUX=""
 
 ```
 
-以 Ubuntu, with Linux 5.15.0-56-generic 为例    \
+以 Ubuntu, with Linux 5.15.0-56-generic 为例 \
 将 GRUB_DEFAULT 修改为
+
 ```shell
 GRUB_DEFAULT="Advanced options for Ubuntu>Ubuntu, with Linux 5.15.0-56-generic"
 ```
 
 更新 grub 配置
+
 ```shell
 update-grub
 ```

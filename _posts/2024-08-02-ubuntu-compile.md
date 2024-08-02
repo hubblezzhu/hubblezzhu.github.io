@@ -7,14 +7,11 @@ tags: ubuntu
 categories: ubuntu
 ---
 
-
-
 基于 ubuntu 编译 linux kernel
 
-
 ## 版本
-Build OS:     ubuntu 22.04 LTS x86 \
 
+Build OS: ubuntu 22.04 LTS x86 \
 
 ## 下载源码
 
@@ -30,8 +27,6 @@ tar -jxvf linux-source-5.15.0.tar.bz2
 cd linux-source-5.15.0
 ```
 
-
-
 ## 安装依赖
 
 ```shell
@@ -41,17 +36,19 @@ apt-get install libelf-dev gcc make libssl-dev dwarves libncurses-dev bison flex
 ## 修改编译配置项
 
 使用原有config
+
 ```shell
 cp /boot/`uname -r`.config
 ```
 
 按需微调
+
 ```shell
 make menuconfig
 ```
 
-
 ## 修改原config中的证书
+
 ```shell
 scripts/config --disable SYSTEM_TRUSTED_KEYS
 scripts/config --disable SYSTEM_REVOCATION_KEYS

@@ -7,20 +7,14 @@ tags: openEuler eBPF
 categories: openEuler
 ---
 
-
-
 openEuler install libbpf
 
-
-
 ## 版本
+
 openEuler: 23.03 x86 \
 linux src code: 6.1
 
-
-
 ## 步骤
-
 
 ```shell
 cd /usr/src/linux-6.1.19-7.0.0.17.oe2303.x86_64
@@ -38,9 +32,8 @@ make
 make install
 ```
 
-
-
 安装后的 libbpf.so 和 libbpf.a 在 /usr/local/lib64 下
+
 ```bash
 root@localhost.localdomain:/usr/src/linux-6.1.19-7.0.0.17.oe2303.x86_64/tools/lib/bpf git:(master) ll /usr/local/lib64 | grep bpf
 drwxr-xr-x. 2 root root    4096 Mar 27 12:52 bpf

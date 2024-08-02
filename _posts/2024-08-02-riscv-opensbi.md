@@ -7,15 +7,14 @@ tags: riscv opensbi
 categories: riscv
 ---
 
-
-
 编译构建 opensbi
 
-
 ## 版本
+
 ubuntu 20.04
 
 ## 从源码编译
+
 ```bash
 git clone git@github.com:riscv-software-src/opensbi.git
 
@@ -29,7 +28,6 @@ make DEBUG=1 PLATFORM=generic PLATFORM_RISCV_XLEN=64 FW_PAYLOAD_PATH=../u-boot/u
 
 ```
 
-
 安装到执行目录
 
 ```bash
@@ -37,8 +35,8 @@ cp build/platform/generic/firmware/fw_payload.bin /root/workspace/run_debug/
 cp build/platform/generic/firmware/fw_payload.elf /root/workspace/run_debug/
 ```
 
-
 ## 启动 opensbi + kernel
+
 ```bash
 
 ```

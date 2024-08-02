@@ -7,13 +7,10 @@ tags: openEuler
 categories: openEuler
 ---
 
-
-
-
 openEuler 安装 docker
 
-
 ## 删除旧版本
+
 ```bash
 sudo yum remove docker \
                   docker-client \
@@ -25,8 +22,8 @@ sudo yum remove docker \
                   docker-engine
 ```
 
-
 ## 配置docker yum repo
+
 ```shell
 vi /etc/yum.repos.d/docker-ce.repo
 
@@ -40,22 +37,21 @@ gpgkey=https://download.docker.com/linux/centos/gpg
 
 ```
 
-
 ## 安装
+
 ```bash
 yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 
-
 ## 启动
+
 ```bash
 systemctl enable docker
 systemctl start docker
 ```
 
-
-
 ## 安装指定版本
+
 查询可用版本
 
 ```bash
@@ -64,6 +60,7 @@ yum list docker-ce --showduplicates | sort -r
 
 安装制定版本 \
 如 18.09
+
 ```bash
 yum install docker-ce-3:18.09.9-3.el7 docker-ce-cli-1:18.09.9-3.el7 containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
