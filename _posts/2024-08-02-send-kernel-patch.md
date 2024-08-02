@@ -1,7 +1,7 @@
 ---
 layout: post
 title: send linux kernel patch
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:36
 description:
 tags: patch
 categories: others

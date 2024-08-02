@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ubuntu boot process
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:39
 description:
 tags: ubuntu boot
 categories: ubuntu

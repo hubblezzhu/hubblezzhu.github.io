@@ -1,7 +1,7 @@
 ---
 layout: post
 title: riscv opensbi compile
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:31
 description:
 tags: riscv opensbi
 categories: riscv

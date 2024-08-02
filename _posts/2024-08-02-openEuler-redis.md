@@ -1,7 +1,7 @@
 ---
 layout: post
 title: openEuler install redis
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:23
 description:
 tags: openEuler
 categories: openEuler

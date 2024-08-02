@@ -1,7 +1,7 @@
 ---
 layout: post
 title: riscv build rootfs by debootstrap
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:28
 description:
 tags: riscv
 categories: riscv

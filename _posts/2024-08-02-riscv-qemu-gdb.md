@@ -1,7 +1,7 @@
 ---
 layout: post
 title: riscv enable qemu gdb
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:32
 description:
 tags: riscv qemu
 categories: riscv

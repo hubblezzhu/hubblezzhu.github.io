@@ -1,7 +1,7 @@
 ---
 layout: post
 title: trace-cmd usage
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:37
 description:
 tags: trace trace-cmd
 categories: trace

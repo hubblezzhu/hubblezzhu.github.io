@@ -1,7 +1,7 @@
 ---
 layout: post
 title: openEuler enable cgroup v2
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:20
 description:
 tags: openEuler cgroupv2
 categories: openEuler

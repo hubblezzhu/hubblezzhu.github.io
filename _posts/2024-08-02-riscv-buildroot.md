@@ -1,7 +1,7 @@
 ---
 layout: post
 title: riscv build rootfs by buildroot
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:29
 description:
 tags: riscv buildroot
 categories: riscv

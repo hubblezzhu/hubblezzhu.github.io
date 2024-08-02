@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jenkins get credit
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:12
 description:
 tags: Jenkins
 categories: Jenkins

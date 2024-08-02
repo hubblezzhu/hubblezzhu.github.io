@@ -1,16 +1,7 @@
 ---
 layout: post
-title: 
-date: 2024-08-02 16:40:16
-description:
-tags: 
-categories:
----
-
----
-layout: post
 title: net protocol LLDP
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:14
 description:
 tags: net-protocol LLDP
 categories: net-protocol

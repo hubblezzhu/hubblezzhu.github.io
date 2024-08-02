@@ -1,7 +1,7 @@
 ---
 layout: post
 title: riscv qemu compile
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:33
 description:
 tags: riscv qemu
 categories: riscv

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: openEuler install docker
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:19
 description:
 tags: openEuler
 categories: openEuler

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eBPF bcc install
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:11
 description:
 tags: eBPF bcc
 categories: eBPF

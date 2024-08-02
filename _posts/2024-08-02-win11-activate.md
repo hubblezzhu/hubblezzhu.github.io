@@ -1,7 +1,7 @@
 ---
 layout: post
 title: win11 activate
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:43
 description:
 tags: win11
 categories: others

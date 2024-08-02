@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ubuntu install perf
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:42
 description:
 tags: ubuntu perf
 categories: ubuntu

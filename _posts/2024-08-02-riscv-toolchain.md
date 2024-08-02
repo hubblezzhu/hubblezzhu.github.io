@@ -1,7 +1,7 @@
 ---
 layout: post
 title: riscv install cross compile toolchain
-date: 2024-08-02 16:40:16
+date: 2024-08-02 16:40:34
 description:
 tags: riscv
 categories: riscv
