@@ -1,1 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hubblezzhu.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://hubblezzhu.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-08-02T10:03:07+00:00</updated><id>https://hubblezzhu.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://hubblezzhu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://hubblezzhu.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://hubblezzhu.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://hubblezzhu.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://hubblezzhu.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-08-03T01:33:35+00:00</updated><id>https://hubblezzhu.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">win11 activate</title><link href="https://hubblezzhu.github.io/blog/2024/win11-activate/" rel="alternate" type="text/html" title="win11 activate"/><published>2024-08-02T16:40:43+00:00</published><updated>2024-08-02T16:40:43+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/win11-activate</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/win11-activate/"><![CDATA[<p>激活 window11</p> <h2 id="设置-kms-server">设置 KMS server</h2> <p>Set KMS server</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 打开 CMD， 以管理员身份运行</span>
+slmgr /skms kms8.msguides.com
+</code></pre></div></div> <p>windows11 license key</p> <pre><code class="language-txt">Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
+Home Single Language: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+Home Country Specific: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX
+Pro N: MH37W-N47XK-V7XM9-C7227-GCQG9
+Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Enterprise: NPPR9-FWDCX-D2C8J-H872K-2YT43
+Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+</code></pre> <h2 id="参考">参考</h2> <p>https://msguides.com/windows-11</p>]]></content><author><name></name></author><category term="others"/><category term="win11"/><summary type="html"><![CDATA[激活 window11]]></summary></entry><entry><title type="html">ubuntu install perf</title><link href="https://hubblezzhu.github.io/blog/2024/ubuntu-perf/" rel="alternate" type="text/html" title="ubuntu install perf"/><published>2024-08-02T16:40:42+00:00</published><updated>2024-08-02T16:40:42+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/ubuntu-perf</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/ubuntu-perf/"><![CDATA[<p>ubuntu 源码编译 perf</p> <h2 id="下载源码">下载源码</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>linux-source <span class="nt">-y</span>
+
+<span class="c"># 解压源码</span>
+<span class="nb">cd</span> /usr/src/linux-source-5.15.0/linux-source-5.15.0/tools/perf
+</code></pre></div></div> <h2 id="安装依赖">安装依赖</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>bison <span class="nt">-y</span>
+apt-get <span class="nb">install </span>flex <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libelf-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libdw-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libunwind-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>systemtap-sdt-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libaudit-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libslang2-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libgtk2.0-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>liblzma-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libnuma-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>python3-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libperl-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libiberty-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libbfd-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libcap-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libzstd-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libtraceevent-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>pkg-config <span class="nt">-y</span>
+</code></pre></div></div> <h2 id="编译--安装">编译 &amp; 安装</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make
+</code></pre></div></div> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make <span class="nb">install</span>
+</code></pre></div></div> <h2 id="使用">使用</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/root/bin/perf <span class="nt">-h</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="ubuntu"/><category term="ubuntu"/><category term="perf"/><summary type="html"><![CDATA[ubuntu 源码编译 perf]]></summary></entry><entry><title type="html">ubuntu compile kernel</title><link href="https://hubblezzhu.github.io/blog/2024/ubuntu-compile/" rel="alternate" type="text/html" title="ubuntu compile kernel"/><published>2024-08-02T16:40:41+00:00</published><updated>2024-08-02T16:40:41+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/ubuntu-compile</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/ubuntu-compile/"><![CDATA[<p>基于 ubuntu 编译 linux kernel</p> <h2 id="版本">版本</h2> <p>Build OS: ubuntu 22.04 LTS x86 \</p> <h2 id="下载源码">下载源码</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get update
+apt-get <span class="nb">install tar</span> <span class="nt">-y</span>
+apt-get <span class="nb">install </span>linux-source <span class="nt">-y</span>
+
+<span class="c"># 解压源码</span>
+<span class="nb">cd</span> /usr/src/linux-source-5.15.0
+<span class="nb">tar</span> <span class="nt">-jxvf</span> linux-source-5.15.0.tar.bz2
+
+<span class="nb">cd </span>linux-source-5.15.0
+</code></pre></div></div> <h2 id="安装依赖">安装依赖</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>libelf-dev gcc make libssl-dev dwarves libncurses-dev bison flex <span class="nt">-y</span>
+</code></pre></div></div> <h2 id="修改编译配置项">修改编译配置项</h2> <p>使用原有config</p> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp</span> /boot/<span class="sb">`</span><span class="nb">uname</span> <span class="nt">-r</span><span class="sb">`</span>.config
+</code></pre></div></div> <p>按需微调</p> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make menuconfig
+</code></pre></div></div> <h2 id="修改原config中的证书">修改原config中的证书</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scripts/config <span class="nt">--disable</span> SYSTEM_TRUSTED_KEYS
+scripts/config <span class="nt">--disable</span> SYSTEM_REVOCATION_KEYS
+</code></pre></div></div> <h2 id="编译--安装">编译 &amp; 安装</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make <span class="nt">-j</span> 3
+</code></pre></div></div> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make modules_install
+make <span class="nb">install
+
+</span>reboot
+</code></pre></div></div> <p>reboot 后在系统启动选择系统界面就可以选择新编的内核了</p>]]></content><author><name></name></author><category term="ubuntu"/><category term="ubuntu"/><summary type="html"><![CDATA[基于 ubuntu 编译 linux kernel]]></summary></entry><entry><title type="html">ubuntu change os</title><link href="https://hubblezzhu.github.io/blog/2024/ubuntu-change-os/" rel="alternate" type="text/html" title="ubuntu change os"/><published>2024-08-02T16:40:40+00:00</published><updated>2024-08-02T16:40:40+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/ubuntu-change-os</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/ubuntu-change-os/"><![CDATA[<p>多内核版本下，命令行修改启动OS</p> <h2 id="版本">版本</h2> <p>Build OS: ubuntu 22.04 LTS x86</p> <h2 id="查看现有的可用的内核">查看现有的可用的内核</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> /boot/grub/grub.cfg  | <span class="nb">grep </span>menuentry
+</code></pre></div></div> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>menuentry <span class="s1">'Ubuntu'</span> <span class="nt">--class</span> ubuntu <span class="nt">--class</span> gnu-linux <span class="nt">--class</span> gnu <span class="nt">--class</span> os <span class="nv">$menuentry_id_option</span> <span class="s1">'gnulinux-simple-18342a49-b884-4c12-8afc-b40d82e17ac3'</span> <span class="o">{</span>
+submenu <span class="s1">'Advanced options for Ubuntu'</span> <span class="nv">$menuentry_id_option</span> <span class="s1">'gnulinux-advanced-18342a49-b884-4c12-8afc-b40d82e17ac3'</span> <span class="o">{</span>
+	menuentry <span class="s1">'Ubuntu, with Linux 5.15.0-56-generic'</span> <span class="nt">--class</span> ubuntu <span class="nt">--class</span> gnu-linux <span class="nt">--class</span> gnu <span class="nt">--class</span> os <span class="nv">$menuentry_id_option</span> <span class="s1">'gnulinux-5.15.0-56-generic-advanced-18342a49-b884-4c12-8afc-b40d82e17ac3'</span> <span class="o">{</span>
+	menuentry <span class="s1">'Ubuntu, with Linux 5.15.0-56-generic (recovery mode)'</span> <span class="nt">--class</span> ubuntu <span class="nt">--class</span> gnu-linux <span class="nt">--class</span> gnu <span class="nt">--class</span> os <span class="nv">$menuentry_id_option</span> <span class="s1">'gnulinux-5.15.0-56-generic-recovery-18342a49-b884-4c12-8afc-b40d82e17ac3'</span> <span class="o">{</span>
+	menuentry <span class="s1">'Ubuntu, with Linux 5.15.0-41-generic'</span> <span class="nt">--class</span> ubuntu <span class="nt">--class</span> gnu-linux <span class="nt">--class</span> gnu <span class="nt">--class</span> os <span class="nv">$menuentry_id_option</span> <span class="s1">'gnulinux-5.15.0-41-generic-advanced-18342a49-b884-4c12-8afc-b40d82e17ac3'</span> <span class="o">{</span>
+	menuentry <span class="s1">'Ubuntu, with Linux 5.15.0-41-generic (recovery mode)'</span> <span class="nt">--class</span> ubuntu <span class="nt">--class</span> gnu-linux <span class="nt">--class</span> gnu <span class="nt">--class</span> os <span class="nv">$menuentry_id_option</span> <span class="s1">'gnulinux-5.15.0-41-generic-recovery-18342a49-b884-4c12-8afc-b40d82e17ac3'</span> <span class="o">{</span>
+menuentry <span class="s1">'UEFI Firmware Settings'</span> <span class="nv">$menuentry_id_option</span> <span class="s1">'uefi-firmware'</span> <span class="o">{</span>
+
+</code></pre></div></div> <h2 id="修改启动os">修改启动os</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vi /etc/default/grub
+
+
+<span class="nv">GRUB_DEFAULT</span><span class="o">=</span>0
+<span class="nv">GRUB_TIMEOUT_STYLE</span><span class="o">=</span>hidden
+<span class="nv">GRUB_TIMEOUT</span><span class="o">=</span>0
+<span class="nv">GRUB_DISTRIBUTOR</span><span class="o">=</span><span class="sb">`</span>lsb_release <span class="nt">-i</span> <span class="nt">-s</span> 2&gt; /dev/null <span class="o">||</span> <span class="nb">echo </span>Debian<span class="sb">`</span>
+<span class="nv">GRUB_CMDLINE_LINUX_DEFAULT</span><span class="o">=</span><span class="s2">""</span>
+<span class="nv">GRUB_CMDLINE_LINUX</span><span class="o">=</span><span class="s2">""</span>
+
+</code></pre></div></div> <p>以 Ubuntu, with Linux 5.15.0-56-generic 为例 <br/> 将 GRUB_DEFAULT 修改为</p> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GRUB_DEFAULT</span><span class="o">=</span><span class="s2">"Advanced options for Ubuntu&gt;Ubuntu, with Linux 5.15.0-56-generic"</span>
+</code></pre></div></div> <p>更新 grub 配置</p> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>update-grub
+</code></pre></div></div> <h2 id="重启">重启</h2> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reboot
+</code></pre></div></div>]]></content><author><name></name></author><category term="ubuntu"/><category term="ubuntu"/><summary type="html"><![CDATA[多内核版本下，命令行修改启动OS]]></summary></entry><entry><title type="html">ubuntu boot process</title><link href="https://hubblezzhu.github.io/blog/2024/ubuntu-boot/" rel="alternate" type="text/html" title="ubuntu boot process"/><published>2024-08-02T16:40:39+00:00</published><updated>2024-08-02T16:40:39+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/ubuntu-boot</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/ubuntu-boot/"><![CDATA[<h1 id="ubuntu-启动过程">ubuntu 启动过程</h1> <h1 id="参考资料">参考资料</h1> <ul> <li>[] https://www.ruanyifeng.com/blog/2013/02/booting.html</li> <li>[] https://www.ruanyifeng.com/blog/2013/08/linux_boot_process.html</li> <li>[] https://systemd-book.junmajinlong.com/systemd_bootup.html</li> </ul>]]></content><author><name></name></author><category term="ubuntu"/><category term="ubuntu"/><category term="boot"/><summary type="html"><![CDATA[ubuntu 启动过程]]></summary></entry><entry><title type="html">uprobe usage</title><link href="https://hubblezzhu.github.io/blog/2024/trace-uprobe/" rel="alternate" type="text/html" title="uprobe usage"/><published>2024-08-02T16:40:38+00:00</published><updated>2024-08-02T16:40:38+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/trace-uprobe</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/trace-uprobe/"><![CDATA[<p>uprobe 使用例子</p> <p>##</p>]]></content><author><name></name></author><category term="trace"/><category term="trace"/><category term="uprobe"/><summary type="html"><![CDATA[uprobe 使用例子]]></summary></entry><entry><title type="html">trace-cmd usage</title><link href="https://hubblezzhu.github.io/blog/2024/trace-trace-cmd/" rel="alternate" type="text/html" title="trace-cmd usage"/><published>2024-08-02T16:40:37+00:00</published><updated>2024-08-02T16:40:37+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/trace-trace-cmd</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/trace-trace-cmd/"><![CDATA[<p>trace-cmd 使用</p> <h2 id="环境">环境</h2> <p>openEuler23_03 6.1.19-7.0.0.17.oe2303.aarch64</p> <h2 id="安装">安装</h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnf <span class="nb">install </span>trace-cmd <span class="nt">-y</span>
+</code></pre></div></div> <h2 id="使用">使用</h2> <h4 id="列出可用的-tracer">列出可用的 tracer</h4> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>trace-cmd list <span class="nt">-t</span>
+</code></pre></div></div> <h4 id="列出可追踪的-function">列出可追踪的 function</h4> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>trace-cmd list <span class="nt">-f</span>
+</code></pre></div></div> <h4 id="追踪特定函数">追踪特定函数</h4> <p>1、开始记录</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>trace-cmd record <span class="nt">-P</span> 281760 <span class="nt">-p</span> function_graph <span class="nt">-g</span> do_sys_open
+</code></pre></div></div> <p>另外还可以添加 -l <func> 过滤函数，支持通配符</func></p> <p>2、查看结果</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>trace-cmd report
+</code></pre></div></div> <h2 id="常用跟踪函数">常用跟踪函数</h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ksys_read
+ksys_write
+</code></pre></div></div>]]></content><author><name></name></author><category term="trace"/><category term="trace"/><category term="trace-cmd"/><summary type="html"><![CDATA[trace-cmd 使用]]></summary></entry><entry><title type="html">send linux kernel patch</title><link href="https://hubblezzhu.github.io/blog/2024/send-kernel-patch/" rel="alternate" type="text/html" title="send linux kernel patch"/><published>2024-08-02T16:40:36+00:00</published><updated>2024-08-02T16:40:36+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/send-kernel-patch</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/send-kernel-patch/"><![CDATA[<p>向内核提交riscv patch</p> <h2 id="步骤">步骤</h2> <h3 id="1安装-git-send-email">1、安装 git send-email</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install </span>git git-email
+</code></pre></div></div> <p>交互式指导参考：https://git-send-email.io/#step-1</p> <h3 id="2配置-smtp-server">2、配置 smtp server</h3> <p>修改.gitconfig 文件，参考</p> <div class="language-conf highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[<span class="n">user</span>]
+        <span class="n">name</span> = <span class="n">Zhu</span> <span class="n">Hengbo</span>
+        <span class="n">email</span> = <span class="n">zhuhengbo</span>@<span class="n">iscas</span>.<span class="n">ac</span>.<span class="n">cn</span>
+[<span class="n">sendemail</span>]
+        <span class="n">from</span> = <span class="n">Zhu</span> <span class="n">Hengbo</span> &lt;<span class="n">zhuhengbo</span>@<span class="n">iscas</span>.<span class="n">ac</span>.<span class="n">cn</span>&gt;
+        <span class="n">smtpserver</span> = <span class="n">xxxxxx</span>
+        <span class="n">smtpserverport</span> = <span class="n">xxxxxx</span>
+        <span class="n">smtpencryption</span> = <span class="n">xxxxxx</span>
+        <span class="n">smtpuser</span> = <span class="n">zhuhengbo</span>@<span class="n">iscas</span>.<span class="n">ac</span>.<span class="n">cn</span>
+        <span class="n">smtppass</span> = <span class="n">xxxxxx</span>
+        <span class="n">supresscc</span> = <span class="n">all</span>
+        <span class="n">confirm</span> = <span class="n">always</span>
+</code></pre></div></div> <h3 id="3制作-patch检查">3、制作 patch，检查</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git format-patch <span class="nt">-1</span>
+</code></pre></div></div> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>linux
+./scripts/checkpatch.pl 0001-riscv-add-tracepoints-for-page-fault.patch
+</code></pre></div></div> <h3 id="4发送-patch">4、发送 patch</h3> <p>获取 maintainer 信息</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>linux
+./scripts/get_maintainer.pl 0001-riscv-add-tracepoints-for-page-fault.patch
+</code></pre></div></div> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git send-email <span class="nt">--to</span> xxxxxx <span class="nt">--cc</span> xxxxxx 0001-riscv-add-tracepoints-for-page-fault.patch
+</code></pre></div></div> <h3 id="5tips">5、Tips</h3> <h5 id="1在-gitconfig-中添加配置">1、在 .gitconfig 中添加配置</h5> <div class="language-conf highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[<span class="n">sendemail</span>.<span class="n">linux</span>]
+	<span class="n">tocmd</span> =<span class="s2">"`pwd`/scripts/get_maintainer.pl --nogit --norolestats "</span>
+	<span class="n">cccmd</span> =<span class="s2">"`pwd`/scripts/get_maintainer.pl --nogit --nogit-fallback --norolestats --nom"</span>
+</code></pre></div></div> <p>发送patch</p> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git send-email <span class="nt">--identity</span><span class="o">=</span>linux ./0001-riscv-add-tracepoints-for-page-fault.patch
+</code></pre></div></div> <p>这样会直接帮忙把多个 –to 的收件人 和 –cc 的抄送人填好</p> <h5 id="2patch-需要更新">2、patch 需要更新</h5> <p>如果patch需要更新，在 commit msg 中加上</p> <pre><code class="language-txt">---
+Changes in v2:
+- xxxxxx
+</code></pre> <p>然后重新生成 Patch</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git format-patch <span class="nt">-1</span> <span class="nt">--subject-prefix</span><span class="o">=</span><span class="s2">"[PATCH vXXX]"</span>
+</code></pre></div></div> <p>之后重新发送patch 即可</p>]]></content><author><name></name></author><category term="others"/><category term="patch"/><summary type="html"><![CDATA[向内核提交riscv patch]]></summary></entry><entry><title type="html">riscv uboot compile</title><link href="https://hubblezzhu.github.io/blog/2024/riscv-uboot/" rel="alternate" type="text/html" title="riscv uboot compile"/><published>2024-08-02T16:40:35+00:00</published><updated>2024-08-02T16:40:35+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/riscv-uboot</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/riscv-uboot/"><![CDATA[<p>构建 uboot</p> <h2 id="版本">版本</h2> <p>ubuntu 20.04</p> <h2 id="从源码编译">从源码编译</h2> <h3 id="安装依赖">安装依赖</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>python3-venv <span class="nt">-y</span>
+apt-get <span class="nb">install </span>python3-pip <span class="nt">-y</span>
+
+
+python3 <span class="nt">-m</span> pip <span class="nb">install </span>sphinx <span class="nt">-y</span>
+python3 <span class="nt">-m</span> pip <span class="nb">install </span>sphinx_rtd_theme <span class="nt">-y</span>
+python3 <span class="nt">-m</span> pip <span class="nb">install </span>ninja <span class="nt">-y</span>
+
+</code></pre></div></div> <h3 id="下载源码">下载源码</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 以 qemu 9.0 版本为例</span>
+wget https://mirrors.aliyun.com/blfs/conglomeration/qemu/qemu-9.0.0.tar.xz
+
+<span class="nb">tar</span> <span class="nt">-xvJf</span> qemu-9.0.0.tar.xz
+
+</code></pre></div></div> <h3 id="编译">编译</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nb">cd </span>qemu-9.0.0
+<span class="c"># ../configure</span>
+./configure <span class="nt">--enable-kvm</span> <span class="nt">--enable-virtfs</span> <span class="nt">--enable-slirp</span> <span class="nt">--target-list</span><span class="o">=</span>riscv64-linux-user,riscv64-softmmu
+
+make <span class="nt">-j</span> 15
+
+</code></pre></div></div>]]></content><author><name></name></author><category term="riscv"/><category term="riscv"/><summary type="html"><![CDATA[构建 uboot]]></summary></entry><entry><title type="html">riscv install cross compile toolchain</title><link href="https://hubblezzhu.github.io/blog/2024/riscv-toolchain/" rel="alternate" type="text/html" title="riscv install cross compile toolchain"/><published>2024-08-02T16:40:34+00:00</published><updated>2024-08-02T16:40:34+00:00</updated><id>https://hubblezzhu.github.io/blog/2024/riscv-toolchain</id><content type="html" xml:base="https://hubblezzhu.github.io/blog/2024/riscv-toolchain/"><![CDATA[<p>编译安装 RISC-V 交叉编译工具链</p> <h2 id="版本">版本</h2> <p>ubuntu 20.04</p> <h2 id="方式一从-apt-源安装">方式一：从 apt 源安装</h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>git <span class="nt">-y</span>
+apt-get <span class="nb">install </span>build-essential <span class="nt">-y</span>
+apt-get <span class="nb">install </span>gdb-multiarch <span class="nt">-y</span>
+apt-get <span class="nb">install </span>gcc-riscv64-linux-gnu <span class="nt">-y</span>
+apt-get <span class="nb">install </span>binutils-riscv64-linux-gnu <span class="nt">-y</span>
+</code></pre></div></div> <h2 id="方式二从-release-包安装">方式二：从 release 包安装</h2> <p>release地址：</p> <p>https://github.com/riscv-collab/riscv-gnu-toolchain/releases</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 举例</span>
+wget https://github.com/riscv-collab/riscv-gnu-toolchain/releases/download/2024.04.12/riscv64-glibc-ubuntu-20.04-gcc-nightly-2024.04.12-nightly.tar.gz
+<span class="nb">tar</span> <span class="nt">-zxvf</span> riscv64-glibc-ubuntu-20.04-gcc-nightly-2024.04.12-nightly.tar.gz
+
+./riscv/bin/riscv64-unknown-linux-gnu-gcc <span class="nt">-v</span>
+</code></pre></div></div> <h2 id="方式三从源码编译">方式三：从源码编译</h2> <h3 id="安装依赖">安装依赖</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install </span>autoconf <span class="nt">-y</span>
+apt-get <span class="nb">install </span>automake <span class="nt">-y</span>
+apt-get <span class="nb">install </span>autotools-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>curl <span class="nt">-y</span>
+apt-get <span class="nb">install </span>python3 <span class="nt">-y</span>
+apt-get <span class="nb">install </span>python3-pip <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libmpc-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libmpfr-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libgmp-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>gawk <span class="nt">-y</span>
+apt-get <span class="nb">install </span>build-essential <span class="nt">-y</span>
+apt-get <span class="nb">install </span>bison <span class="nt">-y</span>
+apt-get <span class="nb">install </span>flex <span class="nt">-y</span>
+apt-get <span class="nb">install </span>texinfo <span class="nt">-y</span>
+apt-get <span class="nb">install </span>gperf <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libtool <span class="nt">-y</span>
+apt-get <span class="nb">install </span>patchutils <span class="nt">-y</span>
+apt-get <span class="nb">install </span>bc <span class="nt">-y</span>
+apt-get <span class="nb">install </span>zlib1g-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libexpat-dev <span class="nt">-y</span>
+apt-get <span class="nb">install </span>ninja-build <span class="nt">-y</span>
+apt-get <span class="nb">install </span>git <span class="nt">-y</span>
+apt-get <span class="nb">install </span>cmake <span class="nt">-y</span>
+apt-get <span class="nb">install </span>libglib2.0-dev <span class="nt">-y</span>
+</code></pre></div></div> <h3 id="下载源码">下载源码</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:riscv-collab/riscv-gnu-toolchain.git
+<span class="nb">cd </span>riscv-gnu-toolchain
+git <span class="nb">rm </span>qemu musl spike pk   <span class="c"># 去掉无关模块</span>
+git submodule update <span class="nt">--init</span> <span class="nt">--recursive</span> <span class="nt">--progress</span>
+</code></pre></div></div> <h3 id="编译">编译</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>build
+<span class="nb">mkdir install</span>
+
+./configure <span class="nt">--prefix</span><span class="o">=</span><span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/install <span class="nt">--with-arch</span><span class="o">=</span>rv64gc <span class="nt">--with-abi</span><span class="o">=</span>lp64d <span class="nt">--enable-multilib</span>
+make linux <span class="nt">-j</span> 3
+</code></pre></div></div> <h3 id="使用">使用</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/root/riscv-gnu-toolchain/install/bin/riscv64-unknown-linux-gnu-gcc <span class="nt">-v</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="riscv"/><category term="riscv"/><summary type="html"><![CDATA[编译安装 RISC-V 交叉编译工具链]]></summary></entry></feed>
