@@ -13,15 +13,9 @@ I developed a keen interest in Machine Learning so I have started studying and i
 
 ## Education:
 
-<h3 style="margin-bottom:2px;">Master of Computer Applications</h3>
-<h4 style="margin:0;">National Institute of Technology, Tiruchirappalli (NIT Trichy)</h4>
-August 2018 - July 2021\
-CGPA: 9.14/10.0
-
-<h3 style="margin-bottom:2px;">Bachelors of Science (Hons.) Mathematics</h3>
-<h4 style="margin:0;">P.G.D.A.V. College (Eve.), University of Delhi (DU)</h4>
-July 2014 - June 2017\
-Percentage: 68.73%
+<h3 style="margin-bottom:2px;">Bachelors of Software Engineer</h3>
+<h4 style="margin:0;">Sun Yat-sen University</h4>
+August 2013 - July 2017
 
 ---
 
