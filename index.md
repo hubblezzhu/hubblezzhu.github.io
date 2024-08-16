@@ -16,7 +16,7 @@ Feel free to contact me if you are interested.
 ## Education:
 
 <h3 style="margin-bottom:2px;">Bachelors of Software Engineer</h3>
-<h4 style="margin:0;">Sun Yat-sen University</h4>
+<h4 style="margin:0;">Sun Yat-sen University, Guangdong, China</h4>
 August 2013 - July 2017
 
 ---
