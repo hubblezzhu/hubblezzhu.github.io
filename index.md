@@ -33,7 +33,7 @@ May 2023 - Present</p>
 
 <h3 style="margin-bottom:2px;">Alibaba Cloud</h3>
 <p style="margin:0;"><b>Senior Network Engineer</b><br>
-July 2021 - May 2023</p>
+September 2021 - May 2023</p>
 <ul style="margin-left: -1.4em;">
   <li>linux tc-based packet marking and bandwidth managerment </li>
   <li>SRv6 Router based on SONiC</li>
@@ -42,7 +42,7 @@ July 2021 - May 2023</p>
 
 <h3 style="margin-bottom:2px;">Huawei</h3>
 <p style="margin:0;"><b>Senior Software Engineer</b><br>
-Feburatury 2019 - September 2021</p>
+Feburatury 2019 - August 2021</p>
 <ul style="margin-left: -1.4em;">
   <li>Maintainer of openEuler High Performance Network Sig</li>
   <li>High performance user-mode stack, powered by DPDK and Lwip, <a href="https://gitee.com/openeuler/gazelle">Gazelle</a></li>
