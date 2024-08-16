@@ -53,7 +53,9 @@ Feburatury 2019 - September 2021</p>
 <h3 style="margin-bottom:2px;">TP-LINK</h3>
 <p style="margin:0;"><b>Junior Engineer</b><br>
 July 2017 - Feburatury 2019</p>
-
+<ul style="margin-left: -1.4em;">
+  <li>Production software development for mobile phone</li>
+</ul>
 
 ## Projects:
 
