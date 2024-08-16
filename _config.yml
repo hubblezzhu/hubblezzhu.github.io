@@ -2,7 +2,9 @@ title: Hengbo Zhu
 logo: /assets/img/hengbo.jpg
 email: zhuhengbo2018@gmail.com
 phone: +86 13057520552
-description: Linux Kernel Developer, Rust beginner, TCP/IP, DPDK, eBPF, SRv6
+description: Linux Kernel Developer \
+Rust beginner \
+TCP/IP, DPDK, eBPF, SRv6
 favicon: true
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: light
