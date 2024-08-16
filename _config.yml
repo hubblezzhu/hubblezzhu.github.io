@@ -26,9 +26,9 @@ platforms:
   - name: Projects
     icon: <i class="fa-solid fa-file-code fa-fw"></i>
     link: ./projects
-  - name: Blogs
-    icon: <i class="fa-solid fa-blog fa-fw"></i>
-    link: ./blogs
+  - name: Notes
+    icon: <i class="fa-solid fa-book fa-fw"></i>
+    link: https://github.com/hubblezzhu/portfolio
   # - name: Open Source
   #   icon: <i class="fa-solid fa-ghost fa-fw"></i>
   #   link: ./open-source
