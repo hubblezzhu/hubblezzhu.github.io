@@ -1,9 +1,13 @@
 {% if site.logo %}
-<img class="logo" src="{{ site.logo | relative_url }}" alt="Logo">
+<img class="logo" src="{{ site.logo | relative_url }}" alt="Logo" style="border-radius: 50%;">
 {% endif %}
 
 <h1>{{ site.title | default: site.github.repository_name }}</h1>
 
 {% if site.email %}
 <p class="addr"><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+{% endif %}
+
+{% if site.phone %}
+<p class="addr"><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:{{ site.phone }}">{{ site.phone }}</a></p>
 {% endif %}
