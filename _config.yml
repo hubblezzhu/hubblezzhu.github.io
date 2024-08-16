@@ -29,6 +29,6 @@ platforms:
   - name: Blogs
     icon: <i class="fa-solid fa-blog fa-fw"></i>
     link: ./blogs
-  - name: Open Source
-    icon: <i class="fa-solid fa-ghost fa-fw"></i>
-    link: ./open-source
+  # - name: Open Source
+  #   icon: <i class="fa-solid fa-ghost fa-fw"></i>
+  #   link: ./open-source
