@@ -45,9 +45,9 @@ July 2021 - May 2023</p>
 Feburatury 2019 - September 2021</p>
 <ul style="margin-left: -1.4em;">
   <li>Maintainer of openEuler High Performance Network Sig</li>
-  <li>High performance user-mode stack, powerd by DPDK and Lwip, [Gazelle](https://gitee.com/openeuler/gazelle)</li>
-  <li>eBPF-based net qos, [oncn-bwm](https://gitee.com/openeuler/oncn-bwm)</li>
-  <li>eBPF-based observation engine, [gala-gopher](https://gitee.com/openeuler/gala-gopher)</li>
+  <li>High performance user-mode stack, powered by DPDK and Lwip, <a href="https://gitee.com/openeuler/gazelle">Gazelle</a></li>
+  <li>eBPF-based net qos, <a href="https://gitee.com/openeuler/oncn-bwm">oncn-bwm</a></li>
+  <li>eBPF-based observation engine, <a href="https://gitee.com/openeuler/gala-gopher">gala-gopher</a></li>
 </ul>
 
 <h3 style="margin-bottom:2px;">TP-LINK</h3>
