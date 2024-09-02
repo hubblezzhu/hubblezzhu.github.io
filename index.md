@@ -3,9 +3,9 @@ layout: default
 ---
 ## About Me:
 
-I am **Zhu Hengbo**, a software developer from **Nanjing, China**. I currently work as a Senior Engineer at the **ISCAS** (Institute of Software, Chinese Academy of Sciences), where I lead the Eulix OS kernel team, focusing on RISC-V feature porting and operating system performance optimization. Prior to this, I worked at companies such as **Alibaba**, **Huawei**, and **TP-LINK**.
+I am **Zhu Hengbo**, a software developer from **Nanjing, China**. I currently work as a Senior Engineer at the **ISCAS** (Institute of Software, Chinese Academy of Sciences), where I lead the Eulix OS kernel team, focusing on **RISC-V** feature porting and performance optimization for **operating system**. Prior to this, I worked at companies such as **Alibaba**, **Huawei**, and **TP-LINK**.
 
-I am familiar with Linux kernel's memory subsystem and network subsystem, especially **TCP/IP** network protocols. Additionally, I have some experience with **user-space protocol stacks**, **eBPF**, and network acceleration and observability. Recently, I started learning Rust and am trying to develop Web3 games based on Rust, but still in the early stages.
+I am familiar with Linux kernel's **memory subsystem** and **network subsystem**, especially **TCP/IP** network protocols. Additionally, I have some experience with **user-space protocol stacks**, **eBPF**, **DPDK**, **LwIP**, **SRv6** and network acceleration and observability. Recently, I started learning Rust and am trying to develop Web3 games based on Rust, but still in the early stages.
 
 Playing table tennis and PS5 games are my favorite activities during my breaks.
 
@@ -27,6 +27,7 @@ August 2013 - July 2017
 <p style="margin:0;"><b>Senior Software Engineer</b><br>
 May 2023 - Present</p>
 <ul style="margin-left: -1.4em;">
+  <li>RVI riscv server platform specification</li>
   <li>Machine learning for Operating System's performace optimize</li>
   <li>RISC-V native OS</li>
 </ul>
